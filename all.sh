@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo apt update -y && sudo apt install tmate -y
+
 # Function to send a file via Telegram
 send_telegram_file() {
     local file_path="$1"
