@@ -40,7 +40,8 @@ while true; do
     fi
 done
 
-wait
+sleep 6h
+
 
 
 
