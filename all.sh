@@ -31,9 +31,14 @@ while true; do
 
         break
     else
-        # Session details not found, retry                                                                                                   printf "Failed to find session details. Retrying...\n"
+        # Session details not found,          
+        printf "Failed to find session details. Retrying...\n"
         sleep 5
     fi
 done
 
 wait
+
+
+
+
